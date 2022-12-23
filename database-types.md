@@ -1,4 +1,4 @@
-##Types of Database##
+#Types of Database </br >
 **Relational Database**
 **Non Relational Database**
 
