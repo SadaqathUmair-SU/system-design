@@ -1,11 +1,11 @@
 ## Types of Database </br >
 **Relational Database** </br >
-**Non Relational Database**
+**Non Relational Database** 
 
 
-##Relation Database##
+## Relational Database
 
-**Schema**
+**Schema** </br>
 **ACID**
 
 **Schema** in relational DB refer's to, how the data is going to be structured.
@@ -26,5 +26,5 @@ One of the reasons to use Schema is, if the requirement has some constraints.
 2. Using Schema, Vertical Scaling can happen easily whereas Horizontal Scaling is bit difficult
 
 
-##Non Relational Database##
+## Non Relational Database
 
