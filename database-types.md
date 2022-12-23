@@ -30,7 +30,7 @@ One of the reasons to use Schema is, if the requirement has some constraints.
 
 Non relational databases are also known as NO SQL.
 
-**Types of Non Relational databases**</br>
+**Types of Non Relational databases:**</br>
 **Key-Value Stores**</br>
 1. K-V stores are used similar to HashMap for ex, if you want to enable certain feature in a certain city for your application etc.
 2. K-V are used to cache at the server side using Reddis, Dynamo DB etc
