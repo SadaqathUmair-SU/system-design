@@ -17,7 +17,7 @@ One of the reasons to use Schema is, if the requirement has some constraints.
 **Atomicity** - It is a transaction in database which ensures the transaction happens successfully or doesn't happens at all.</br>
 **Consistency** - It ensures to maintain consistency while reading the data so that while fetching the data doesn't gets changed at any point of time.</br>
 **Isolation** - It ensures the occurrence of multiple transactions concurrently without a database state leading to a state of inconsistency.</br>
-                For ex: Let's there are two transactions happening read and write respectively.</br>
+                For ex: Let's say there are two transactions happening read and write respectively.</br>
                 Isolation ensures to do the transactions in a sequence i.e, to read first and to write it at second.</br>
 **Durability** - It ensures that changes made to the database (transactions) that are successfully committed will survive permanently, even in the case of system failures.</br>
 
@@ -27,4 +27,12 @@ One of the reasons to use Schema is, if the requirement has some constraints.
 
 
 ## Non Relational Database
+
+Non relational databases are also known as NO SQL.
+
+**Types of Non Relational databases**</br>
+**Key-Value Stores**</br>
+1. K-V stores are used similar to HashMap for ex, if you want to enable certain feature in a certain city for your application etc.
+2. K-V are used to cache at the server side using Reddis, Dynamo DB etc
+3. K-V stores are quite fast and they provide quick access because most of the data stores are in-memory.
 
