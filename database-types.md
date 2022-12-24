@@ -35,4 +35,7 @@ Non relational databases are also known as NO SQL.
 1. K-V stores are used similar to HashMap for ex, if you want to enable certain feature in a certain city for your application etc.
 2. K-V are used to cache at the server side using Reddis, Dynamo DB etc
 3. K-V stores are quite fast and they provide quick access because most of the data stores are in-memory.
+4. Examples - Amazon Dynamo DB, Couchbase, Redis etc..
 
+**Documents Stores**
+1. 
