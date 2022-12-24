@@ -37,5 +37,8 @@ Non relational databases are also known as NO SQL.
 3. K-V stores are quite fast and they provide quick access because most of the data stores are in-memory.
 4. Examples - Amazon Dynamo DB, Couchbase, Redis etc..
 
-**Documents Stores**
-1. 
+**Documents Based Database**
+1. There is no fixed schema
+2. They can support heavy read and writes
+3. Documents DB has Collections and Documents. You can think of like Collections and Documents are similar to Tables and Rows in Relational Database respectively
+4. 
