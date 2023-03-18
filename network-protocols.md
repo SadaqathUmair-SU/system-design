@@ -1,8 +1,8 @@
-##Network Protocols
+## Network Protocols
 
 Network protocols are sets of rules and procedures that enable communication between devices in a network. They define how data is transmitted, received, and processed between devices, as well as how devices communicate with each other.
 
-**Some common network protocols include:**
+**Some common network protocols include:**  
 
 TCP/IP (Transmission Control Protocol/Internet Protocol) - this is the standard protocol used on the internet and is responsible for transmitting data packets between devices.
 
@@ -24,7 +24,7 @@ There are many other network protocols in use, and new ones are constantly being
 
 
 
-**what is Application protocol and peer to peer protocol?**
+**what is Application protocol and peer to peer protocol?**  
 An application protocol is a type of network protocol that defines the way that applications communicate with each other over a network. These protocols are typically used to enable communication between specific types of applications, such as web browsers and web servers, or email clients and mail servers. Examples of application protocols include HTTP, FTP, SMTP, and POP3.
 
 Peer-to-peer (P2P) protocol, on the other hand, is a type of network protocol that allows for direct communication between devices on a network without the need for a centralized server. In a P2P network, each device acts as both a client and a server, allowing them to share resources and communicate directly with other devices on the network. Examples of P2P protocols include BitTorrent, Gnutella, and Napster.
@@ -34,7 +34,7 @@ While application protocols are typically used to facilitate communication betwe
 
 
 
-**Describe some use cases of both**
+**Describe some use cases of both**  
 Here are some use cases for application protocols and P2P protocols:
 
 Application protocols:
@@ -58,7 +58,7 @@ In general, P2P protocols are often used for decentralized applications that req
 
 
 
-**what is webrtc?**
+**what is webrtc?**  
 WebRTC (Web Real-Time Communication) is a collection of open-source protocols and technologies that enable real-time communication over the internet directly between web browsers, without the need for plugins or other software. It was developed by Google, Mozilla, and others as a standard for web-based communication applications, such as video conferencing, voice calling, and file sharing.
 
 WebRTC provides a set of APIs (Application Programming Interfaces) that allow web developers to integrate real-time communication features into their applications. These APIs include access to the device's camera and microphone for video and audio communication, as well as peer-to-peer networking capabilities for direct communication between browsers.
@@ -70,7 +70,7 @@ WebRTC has been widely adopted by web developers and is supported by major web b
 
 
 
-**Does peer to peer has UDP?**
+**Does peer to peer has UDP?**  
 Yes, peer-to-peer (P2P) applications can use UDP (User Datagram Protocol) for data transmission. In fact, UDP is often preferred over TCP (Transmission Control Protocol) for P2P applications because it is faster and more efficient, and because it does not require the same level of reliability as TCP.
 
 UDP is a connectionless protocol, which means that it does not establish a reliable, ordered connection between two devices like TCP does. Instead, it simply sends datagrams (packets) from one device to another, without any guarantee that the packets will arrive in the correct order or even arrive at all. This can make UDP less suitable for certain types of applications, such as file transfers, where reliable transmission is critical.
@@ -81,7 +81,7 @@ However, for P2P applications where real-time communication is important, such a
 
 
 
-**Difference between web sockets and webRTC?**
+**Difference between web sockets and webRTC?**  
 WebSockets and WebRTC are both web-based communication technologies, but they have different use cases and functionality.
 
 WebSockets is a protocol that provides a bi-directional, full-duplex communication channel between a web browser and a server. It allows for real-time communication between a web browser and a server, and can be used for applications such as chat rooms, real-time updates, and online games. WebSockets is a relatively simple technology that is well suited for applications where low latency is important, but where real-time video or audio communication is not required.
